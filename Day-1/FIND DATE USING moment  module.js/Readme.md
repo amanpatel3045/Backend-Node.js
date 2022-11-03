@@ -5,5 +5,5 @@
 
 # Step 1- install moment library in vs code terminal like npm i ----
 
-# step 2- import moment using require the use it
+# step 2- import moment using require then use it
 
