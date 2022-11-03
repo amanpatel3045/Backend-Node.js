@@ -1,1 +1,1 @@
-** Exporting and importing single(1) module.
+* Exporting and importing single(1) module.
