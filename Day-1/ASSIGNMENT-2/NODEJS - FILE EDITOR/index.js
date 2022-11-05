@@ -45,5 +45,12 @@ console.log(appendData);
 var filePath = 'test.txt'; 
 fs.unlinkSync(filePath);
 
-//FOR LISTING THE ALL FILES => is pending
+//FOR LISTING THE ALL FILES 
+const fs = require("fs");
+// fs.readdirSync("./")
+const demofile = fs.readdirSync("./");
+for(var i=0; i<demofile.length;i++){
+console.log(demofile[i]);
+
+}
 
